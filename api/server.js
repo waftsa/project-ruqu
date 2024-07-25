@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 //connecting mto mongosDB
-mongoose.connect('mongodb://localhost:27017/');
+mongoose.connect('mongodb://localhost:27017/project-ruqu');
 
 //regsiter
 app.post('/register', async (req, res) => {
